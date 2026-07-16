@@ -1,7 +1,3 @@
-<% project_title_tooltip =  _('If applying for funding, state the name exactly as in the grant proposal.') %>
-<% project_abstract_tooltip = _("Briefly summarise your research project to help others understand the purposes for which the data are being collected or created.") %>
-<% id_tooltip = _('A pertinent ID as determined by the funder and/or organisation.') %>
-
 <div class="row">
     <div class="col-md-8">
     <%= form_for plan, html: {method: :put, class: 'form-horizontal edit_plan' } do |f| %>
@@ -10,10 +6,8 @@
           <%= f.label(:title, _('Project title'), class: 'control-label') %>
         </div>
         <div class="col-md-8">
-          <em class="sr-only"><%= project_title_tooltip %></em>
-          <%= f.text_field(:title, class: "form-control", "aria-required": true,
-            'data-toggle': 'tooltip', spellcheck: true,
-            title: project_title_tooltip) %>
+          <%= f.text_field(:title, class: "form-control", "aria-required": true, 'data-toggle': 'tooltip',
+            title: _('If applying for funding, state the name exactly as in the grant proposal.')) %>
       <div class="checkbox">
         <%= f.hidden_field :visibility %>
         <%= f.label(:is_test, class: 'control-label') do %>
@@ -31,7 +25,6 @@
           <%= f.text_field(
             :funder_name,
             class: "form-control",
-            spellcheck: true,
             "aria-required": false) %>
         </div>
       </div>
@@ -53,8 +46,7 @@
         <div class="col-md-12">
           <%= f.label(:description, _('Project abstract'), class: 'control-label') %>
         </div>
-        <div class="col-md-8" data-toggle="tooltip" title="<%= project_abstract_tooltip %>">
-          <em class="sr-only"><%= project_abstract_tooltip %></em>
+        <div class="col-md-8" data-toggle="tooltip" title="<%= _("Briefly summarise your research project to help others understand the purposes for which the data are being collected or created.") %>">
           <%= f.text_area(
             :description, rows: 6,
             class: 'form-control tinymce',
@@ -66,10 +58,8 @@
           <%= f.label(:identifier, _('ID'), class: 'control-label') %>
         </div>
         <div class="col-md-8">
-          <em class="sr-only"><%= id_tooltip %></em>
-          <%= f.text_field(:identifier, class: "form-control", "aria-required": false,
-                           'data-toggle': "tooltip", spellcheck: true,
-                           title: id_tooltip) %>
+          <%= f.text_field(:identifier, class: "form-control", "aria-required": false, 'data-toggle': "tooltip",
+                           title: _('A pertinent ID as determined by the funder and/or organisation.')) %>
         </div>
       </div>
       <fieldset class="project-details">

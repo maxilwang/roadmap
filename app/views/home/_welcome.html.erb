@@ -1,19 +1,11 @@
-<% title _("Welcome to #{Rails.configuration.branding[:application][:name]}.") %>
+
 <div>
-  <h1><%= _("Welcome to #{Rails.configuration.branding[:application][:name]}.")%></h1>
+    <br>
   <p>
-    <%= sanitize _('<p>%{application_name} has been developed by the <strong>%{organisation_name}</strong> to help you write data management plans.</p>') % {
+    <%= sanitize _('<p> The Cape Peninsula University of Technology (CPUT) makes available a <strong> %{application_name} </strong> to help researchers to compile a DMP for a research project. For some funding agencies a DMP is compulsory and records how the researcher will manage the research data during the project.</p>') % {
       application_name: Rails.configuration.branding[:application][:name],
       organisation_name: Rails.configuration.branding[:organisation][:name]}
       %>
-
-    <label for="linklist">
-      <%=_('Getting started:')%>
-    </label>
-    <ul id="linklist">
-      <% Rails.application.config.branding[:organisation][:welcome_links].each do |wlink| %>
-      <li><a href="<%= wlink[:url] %>"><%= wlink[:title] %></a></li>
-      <% end %>
-    </ul>
   </p>
 </div>
+  

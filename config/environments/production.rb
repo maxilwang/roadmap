@@ -1,8 +1,8 @@
 Rails.application.configure do
   # Verifies that versions and hashed value of the package contents in the project's
   # package.json
-  config.webpacker.check_yarn_integrity = false
-
+  config.webpacker.check_yarn_integrity = false 
+  
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Verifies that versions and hashed value of the package contents in the project's
@@ -62,7 +62,7 @@ Rails.application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Set default host for mailer URLs
-  # config.action_mailer.default_url_options = {host: "example.com"}
+  config.action_mailer.default_url_options = {host: "dmp.cput.ac.za"}
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).

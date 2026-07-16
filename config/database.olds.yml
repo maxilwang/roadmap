@@ -1,0 +1,31 @@
+defaults: &defaults
+  #adapter: <%= ENV['DB_ADAPTER'] || 'postgresql' %>
+  #encoding: <%= ENV['DB_ADAPTER'] == "mysql2" ? "utf8mb4" : "" %>
+  #username: <%= ENV["DB_ADAPTER"] == "postgresql" ? 'postgres' : '' %>
+  #database: roadmap_<%= ENV['RAILS_ENV'] %>
+  #pool: 5
+  adapter: mysql2
+  encoding: utf8mb4
+  database: dmp-upgrade-friday-default
+  pool: 5
+  username: root
+  password: P@ssword192
+  host: localhost
+development:
+  <<: *defaults
+  adapter: mysql2
+  encoding: utf8mb4
+  database: dmp-upgrade-fridayy 
+  pool: 5
+  username: root
+  password: P@ssword192
+  host: localhost
+test:
+  <<: *defaults
+  adapter: mysql2
+  encoding: utf8mb4
+  database: dmp-upgrade-friday-test
+  pool: 5
+  username: root
+  password: P@ssword192
+  host: localhost

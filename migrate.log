@@ -1,0 +1,2 @@
+== 20180807120926 AddDefaultValueToArchivedOnNotes: migrating =================
+-- change_column(:notes, :archived, :boolean, {:default=>false, :null=>false})

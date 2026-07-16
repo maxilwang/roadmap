@@ -127,7 +127,7 @@ module DMPRoadmap
     #   publicly_visibile         - (NOT advisable because plans will show up in Public DMPs page by default)
     #   is_test                   - (NOT advisable because test plans are excluded from statistics)
     #   privately_visible         - Only the owner and people they invite can access the plan
-    config.default_plan_visibility = 'privately_visible'
+    config.default_plan_visibility = 'is_test'
 
     # The percentage of answered questions needed to enable the plan visibility section of the Share plan page
     config.default_plan_percentage_answered = 50

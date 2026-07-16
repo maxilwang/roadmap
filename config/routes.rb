@@ -10,6 +10,11 @@ Rails.application.routes.draw do
 
     get "/users/sign_out", :to => "devise/sessions#destroy"
   end
+  
+  # fix for activeadmin signout bug
+  devise_scope :user do
+    delete '/users/sign_out' => 'devise/sessions#destroy'
+  end
 
   delete '/users/identifiers/:id', to: 'user_identifiers#destroy', as: 'destroy_user_identifier'
 
@@ -259,13 +264,7 @@ Rails.application.routes.draw do
   namespace :super_admin do
     resources :orgs, only: [:index, :new, :create, :destroy]
     resources :themes, only: [:index, :new, :create, :edit, :update, :destroy]
-    resources :users, only: [:edit, :update] do
-      member do
-        put :merge
-        put :archive
-        get :search
-      end
-    end
+    resources :users, only: [:edit, :update]
     resources :notifications, except: [:show]
   end
 

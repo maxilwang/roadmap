@@ -7,7 +7,7 @@ Devise.setup do |config|
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class with default "from" parameter.
-  config.mailer_sender = "example@email.address"
+  config.mailer_sender = "nobebex@cput.ac.za"
 
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"
@@ -89,7 +89,7 @@ Devise.setup do |config|
   	config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  config.pepper = "EXAMPLE OF PEPPER TO GENERATE THE ENCRYPTED PASSWORD"
+  config.pepper = "de451fa8d44af2c286d922f753d1b10fd23b99c10747143d9ba118988b9fa9601fea66bfe31266ffc6a331dc7331c71ebe845af8abcdb84c24b42b8063386530"
 
   # ==> Configuration for :invitable
   # The period the generated invitation token is valid, after
@@ -228,7 +228,7 @@ Devise.setup do |config|
 
   # Set this configuration to false if you want /users/sign_out to sign out
   # only the current scope. By default, Devise signs out all scopes.
-  # config.sign_out_all_scopes = true
+   config.sign_out_all_scopes = false 
 
   # ==> Navigation configuration
   # Lists the formats that should be treated as navigational. Formats like
@@ -251,7 +251,7 @@ Devise.setup do |config|
 
   # Any entries here MUST match a corresponding entry in the identifier_schemes table as
   # well as an identifier_schemes.schemes section in each locale file!
-  OmniAuth.config.full_host = 'https://my_service.hostname'
+  OmniAuth.config.full_host = 'dmp.cput.ac.za'
 
   config.omniauth :orcid,
   'client_id', 'client_secret',
@@ -261,14 +261,24 @@ Devise.setup do |config|
 
   config.omniauth :shibboleth,
   {
+    #uid_field:                 "sAMAccountName",
+    uid_field:                 "HTTP_SAMACCOUNTNAME",
+    #uid_field:                 "HTTP_MAIL",
+    email:                 "HTTP_MAIL",
+    #uid:                 "HTTP_REMOTE_USER",
+    shib_application_id_field: "HTTP_SHIB_APPLICATION_ID",
+    shib_session_id_field:     "HTTP_SHIB_SESSION_ID",
     #debug: true,
     #uid_field:                 "HTTP_REMOTE_USER",
     #shib_application_id_field: "HTTP_SHIB_APPLICATION_ID",
     #shib_session_id_field:     "HTTP_SHIB_SESSION_ID",
     fields: [],
     info_fields: {
+     # display_name: 'displayName', uid: 'sAMAccountName', email: 'mail', given_name: 'givenName', last_name: 'sn'
+     display_name: 'HTTP_DISPLAYNAME', uid: 'HTTP_SAMACCOUNTNAME', email: 'HTTP_MAIL', given_name: 'HTTP_GIVENNAME', last_name: 'HTTP_SN'
       #affiliation: "HTTP_AFFILIATION",
     },
+    callback_url: '/users/auth/shibboleth/callback',
     extra_fields: [],
   }
 

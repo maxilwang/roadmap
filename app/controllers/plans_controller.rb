@@ -9,6 +9,8 @@ class PlansController < ApplicationController
   after_action :verify_authorized, except: [:overview]
 
   def index
+    Rails.logger.info "CURRENT USER: #{current_user.inspect}"
+    Rails.logger.info "CURRENT USER ID: #{current_user&.id}"
     authorize Plan
     @plans = Plan.active(current_user).page(1)
     if current_user.org.is_other?
@@ -30,10 +32,12 @@ class PlansController < ApplicationController
                   .where(templates: { published: true }).uniq.sort_by(&:name)
     @orgs = (Org.organisation + Org.institution + Org.managing_orgs).flatten
                                                                     .uniq.sort_by(&:name)
-
+                                                                    
     # Get the current user's org
     @default_org = current_user.org if @orgs.include?(current_user.org)
-
+    #binding.remote_pry
+   
+    #binding.pry
     if params.key?(:test)
       flash[:notice] = "#{_('This is a')} <strong>#{_('test plan')}</strong>"
     end
@@ -50,8 +54,10 @@ class PlansController < ApplicationController
     # autocomplete to be blank if the no org/funder checkboxes are checked off
     org_id = (plan_params[:org_id] == "-1" ? "" : plan_params[:org_id])
     funder_id = (plan_params[:funder_id] == "-1" ? "" : plan_params[:funder_id])
-
     # If the template_id is blank then we need to look up the available templates and
+    #require 'pry'
+    #binding.pry
+    #byebug
     # return JSON
     if plan_params[:template_id].blank?
       # Something went wrong there should always be a template id
@@ -91,7 +97,8 @@ class PlansController < ApplicationController
       else
         @plan.title = plan_params[:title]
       end
-
+        #require 'pry'
+        #binding.pry
       if @plan.save
         # pre-select org's guidance and the default org's guidance
         ids = (Org.managing_orgs << org_id).flatten.uniq

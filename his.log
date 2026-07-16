@@ -1,0 +1,1000 @@
+   31  git branch
+   32  vim Gemfile
+   33  bundle exec rake db:migrate
+   34  rake upgrade:v1_0_0 RAILS_ENV=development --trace
+   35  history | grep ps
+   36  pwd
+   37  ls
+   38  rvm list
+   39  pwd
+   40  rvm use ruby-2.5.1
+   41  bundle install
+   42  rail server
+   43  rails server -b 0.0.0.0
+   44  bundle update
+   45  bundle install
+   46  rails server -b 0.0.0.0
+   47  /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/core_ext/numeric/conversions.rb:121: warning: constant ::Fixnum is deprecated
+   48  vim /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/core_ext/numeric/conversions.rb
+   49  rails -v
+   50  vim /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/core_ext/numeric/conversions.rb
+   51  bundle install
+   52  rails server -b 0.0.0.0
+   53  vim /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/core_ext/numeric/conversions.rb
+   54  bundle install
+   55  rails server -b 0.0.0.0
+   56  vim config/database.yml 
+   57  vim /var/www/html/roadmap/config/database.yml 
+   58  service httpd restart
+   59  cd ..
+   60  cp -r roadmap roadmapMonBakp
+   61  cd roadmapFriday/
+   62  rails server -b 0.0.0.0
+   63  vim /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/core_ext/numeric/conversions.rb
+   64  rails server -b 0.0.0.0
+   65  vim /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/core_ext/numeric/conversions.rb
+   66  bundle update rails
+   67  rails -v
+   68  rails server -b 0.0.0.0
+   69  vim /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/core_ext/numeric/conversions.rb
+   70  bundle install
+   71  rails server -b 0.0.0.0
+   72  vim /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/core_ext/numeric/conversions.rb
+   73  rails server -b 0.0.0.0
+   74  vim /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/core_ext/numeric/conversions.rb
+   75  rails server -b 0.0.0.0
+   76  bundle update
+   77  rails server -b 0.0.0.0
+   78  history | grep ps
+   79  ps -ef | grep ruby
+   80  cd /var/www/html/roadmapFriday/
+   81  ps -ef | grep ruby
+   82  kill -9 
+   83  rails server -b 0.0.0.0
+   84  locate key_generator.rb
+   85  /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/key_generator.rb
+   86  vim /usr/local/rvm/gems/ruby-2.5.1/gems/activesupport-4.2.7/lib/active_support/key_generator.rb
+   87  ps -ef | grep ruby
+   88  kill -9 5787
+   89  rails server -b 0.0.0.0
+   90  ps -ef | grep ruby
+   91  kill -9 5890
+   92  rails server -b 0.0.0.0
+   93  service httpd restart
+   94  rake webpacker:yarn_install
+   95  npm --version
+   96  rake webpacker:yarn_install
+   97  rake webpacker:yarn_install
+   98  yarn --version
+   99  npm install n -g
+  100  npm install n
+  101  sudo reboot
+  102  cd /var/www/html/roadmapFriday/
+  103  rvm list
+  104  ps -ef | grep ruby
+  105  rails server -b 0.0.0.0
+  106  cd /etc/
+  107  cd httpd/
+  108  ls
+  109  cd conf
+  110  ls
+  111  vim httpd.conf
+  112  cd ..
+  113  cd conf.d/
+  114  ls
+  115  vim passenger.conf
+  116  service httpd restart
+  117  cd /var/www/html/roadmapFriday/
+  118  vim config/secrets.yml 
+  119  screen -x
+  120  cd /var/www/html/roadmapFriday/
+  121  service httpd restart
+  122  rake webpacker:yarn_install
+  123  vim Gemfile
+  124  bundle update
+  125  export https_proxy=http://facilities:tuesday1234@10.47.3.224:3128
+  126  export http_proxy=http://facilities:tuesday1234@10.47.3.224:3128
+  127  bundle update
+  128  history 
+  129  ps -ef | grep ruby
+  130  kill -9 8689
+  131  kill -9 16804
+  132  kill -9 16836
+  133  bundle update
+  134  rake --tasks
+  135  cd /var/www/html/roadmapFriday/
+  136  sudo -S yum install -y nodejs
+  137  ps -ef | grep yum
+  138  kill -9 2805
+  139  kill -9 2804
+  140  kill -9 2818
+  141  export https_proxy=http://facilities:tuesday1234@10.47.3.224:3128
+  142  export http_proxy=http://facilities:tuesday1234@10.47.3.224:3128
+  143  yum update
+  144  sudo -S yum install -y nodejs
+  145  rake webpacker:yarn_install
+  146  history | grep rake
+  147  history | grep secret
+  148  rake secrete RAILS_ENV=test
+  149  rake secret RAILS_ENV=test
+  150  vim config/database.yml 
+  151  vim config/secrets.yml 
+  152  rake secret RAILS_ENV=production
+  153  vim config/secrets.yml
+  154  service httpd restart
+  155  bundle install
+  156  rails webpacker:install
+  157  rake webpacker
+  158  rake webpacker:install
+  159  cd ..
+  160  cd roadmap
+  161  bundle install
+  162  bundle update
+  163  bundle install
+  164  vim /etc/httpd/conf.d/passenger.conf
+  165  service httpd restart
+  166  vim /etc/httpd/conf.d/passenger.conf
+  167  cd ..
+  168  cd roadmapFriday/
+  169  service httpd restart
+  170  vim /etc/httpd/conf.d/passenger.conf
+  171  node -v
+  172  npm -v
+  173  node --version
+  174  sudo yum install npm
+  175  kill -9 2401
+  176  sudo yum install npm
+  177  rake assets:precompile
+  178  service httpd restart
+  179  yum search npm
+  180  kill -9 3473
+  181  yum search npm
+  182  rpm -i rh-nodejs8-npm.x86_64
+  183  sudo yum -y install epel-release
+  184  sudo yum -y install nodejs
+  185  yum install -y npm
+  186  kill -9 6141
+  187  yum install -y npm
+  188  curl -sL https://rpm.nodesource.com/setup_8.x
+  189  curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
+  190  sudo yum install yarn
+  191  curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+  192  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  193  nvm install node
+  194  npm --version
+  195  rake webpacker:install
+  196  nano hello_world.js
+  197  ls
+  198  vim hello_world.js 
+  199  node hello_world.js 
+  200  npm install testing
+  201  rake upgrade:theme_delete_deprecated
+  202  rake upgrade:theme_new_themes
+  203  rake upgrade:theme_transform
+  204  bundle update binding_of_caller
+  205  rake upgrade:theme_remove_migrated
+  206  rake upgrade:theme_deduplicate_questions
+  207  service httpd restart
+  208  rake upgrade:single_guidance_for_theme
+  209  rake webpacker:yarn_install
+  210  rake webpacker:install
+  211  rake --tasks
+  212  rake assets:environment
+  213  rake assets:precompile
+  214  rake webpacker:yarn_install
+  215  service httpd restart
+  216  ls -l
+  217  rm hello_world.js 
+  218  cd ..
+  219  ls -l
+  220  chown -R apache:apache roadmapFriday/
+  221  chmod -R 777 roadmapFriday/
+  222  ls -l
+  223  service httpd restart
+  224  cd roadmapFriday/
+  225  rake webpacker:yarn_install\
+  226  rake webpacker:yarn_install
+  227  rake --task
+  228  rake assets:precompile
+  229  vim lib/assets/stylesheets/application.scss
+  230  npm -v
+  231  vim lib/assets/stylesheets/application.scss
+  232  rake assets:precompile
+  233  npm install webpacker
+  234  yarn --version
+  235  npm install yarn -g
+  236  rake webpacker:yarn_install
+  237  rake assets:precompile
+  238  rake webpacker:yarn_install
+  239  rake webpacker:yarn_install_
+  240  RAILS_ENV=development bundle exec rake assets:precompile
+  241  vim lib/assets/stylesheets/application.scss
+  242  RAILS_ENV=development bundle exec rake assets:precompile
+  243  vim lib/assets/stylesheets/application.scss
+  244  RAILS_ENV=development bundle exec rake assets:precompile
+  245  vim lib/assets/stylesheets/application.scss
+  246  RAILS_ENV=development bundle exec rake assets:precompile
+  247  rake webpacker:yarn_install
+  248  rake assets:precompile
+  249  cd ..
+  250  cd roadmap
+  251  cd ..
+  252  ls -l
+  253  cd roadmap26Sep/
+  254  vim lib/assets/stylesheets/application.scss
+  255  ls -l
+  256  locate application.scss
+  257  vim /var/www/html/roadmapp/lib/assets/stylesheets/application.scss
+  258  cd ..
+  259  cd roadmapFriday/
+  260  vim lib/assets/stylesheets/application.scss
+  261  rake assets:precompile
+  262  bundle update
+  263  rake assets:precompile
+  264  bundle update sass-rails
+  265  bundle update sassc-rails
+  266  rake assets:precompile
+  267  ls lib/assets/stylesheets/
+  268  rake assets:precompile
+  269  rake webpacker:yarn_install
+  270  gem list
+  271  bundle exec rails webpacker:install
+  272  rake webpacker
+  273  rake yarn:install
+  274  vim Gemfile
+  275  bundle update
+  276  bundle exec rails yarn:install
+  277  bundle exec rails webpacker:yarn_install
+  278  yarn:install
+  279  yarn --version
+  280  yarn init
+  281  vim Gemfile
+  282  bundle update
+  283  bundle exec rails webpacker:install
+  284  rake webpacker:install
+  285  service httpd restart
+  286  vim /etc/httpd/conf.d/passenger.conf
+  287  service httpd restart
+  288  ls -l
+  289  cd ..
+  290  chown -R apache:apache roadmapFriday/
+  291  cd roadmapFriday/
+  292  service httpd restart
+  293  ls config/
+  294  vim config/webpacker.yml
+  295  yarn install --check-files
+  296  service httpd restart
+  297  rake webpacker:install
+  298  service httpd restart
+  299  vim config/webpacker.yml 
+  300  service httpd restart
+  301  rake webpacker:yarn_install
+  302  mv package-lock.json package-lock.jsonRemoved
+  303  rake webpacker:yarn_install
+  304  service httpd restart
+  305  ls 
+  306  ls lib/
+  307  ls lib/assets/
+  308  ls lib/assets/stylesheets/
+  309  vim lib/assets/stylesheets/application.scss
+  310  ls lib/assets/javascripts/
+  311  vim lib/assets/javascripts/application.js 
+  312  ls lib/
+  313  vim Gemfile
+  314  ls
+  315  ls lib/
+  316  ls
+  317  ls lib/
+  318  ls lib/assets/
+  319  ls lib/assets/images/
+  320  bundle update
+  321  bundle install
+  322  rails server -b 0.0.0.0
+  323  histroy | grep ps
+  324  history | grep ps
+  325  ps -ef | grep ruby
+  326  kill -9 22493
+  327  bundle update
+  328  mv Gemfile Gemfilebk
+  329  vim Gemfile
+  330  cd ..
+  331  ls
+  332  git clone https://github.com/DMPRoadmap/roadmap.git rrrrr
+  333  cd roadmapFriday/
+  334  cp /var/www/html/rrrrr/Gemfile /var/www/html/roadmapFriday/
+  335  chown apache:apache Gemfile
+  336  vim Gemfile
+  337  bundle update
+  338  bundle install
+  339  rake webpacker:yarn_install
+  340  service httpd restart
+  341  vim /var/www/html/roadmapFriday/config/environment.rb
+  342  ls config/
+  343  locate development.rb
+  344  /var/www/html/roadmapFriday/config/environments/development.rb
+  345  ls config/environment/
+  346  ls config
+  347  ls config/environments/
+  348  vim config/environments/development.rb 
+  349  service httpd restart
+  350  vim config/environments/development.rb
+  351  vim Gemfile
+  352  bundle update
+  353  vim Gemfile
+  354  bundle update
+  355  bundle install
+  356  rails server -b 0.0.0.0
+  357  vim config/environments/development.rb
+  358  bundle install
+  359  rails server -b 0.0.0.0
+  360  vim config/environments/development.rb
+  361  rails console
+  362  cd rrrr
+  363  cd ..
+  364  cd rrrr
+  365  cd rrrrr/
+  366  bin/setup
+  367  vim config/database.yml
+  368  bin/setup
+  369  rake secret
+  370  vim config/secrets.yml
+  371  rake secret
+  372  vim config/secrets.yml
+  373  rake secret
+  374  vim config/secrets.yml
+  375  bundle update --bundler
+  376  bundle install
+  377  rake db:schema:load
+  378  rake db:seed
+  379  history | grep RAI
+  380  rake db:schema:load RAILS_ENV=development --trace
+  381  rake db:seed RAILS_ENV=development --trace
+  382  rake webpacker:yarn_install
+  383  rails server
+  384  history | grep ruby
+  385  kill -9 24840
+  386  rails server -b 0.0.0.0
+  387  ps -ef | grep ruby
+  388  kill -9 24856
+  389  killall ruby
+  390  rails server -b 0.0.0.0
+  391  lsof -i :3000
+  392  kill -9 7436
+  393  rails server -b 0.0.0.0
+  394  lsof -i :3000
+  395  kill -9 24856
+  396  lsof -i :3000
+  397  killall ruby
+  398  lsof -i :3000
+  399  vim config/database.yml
+  400  rails server -b 0.0.0.0
+  401  lsof -i :3000
+  402  ps -ef | grep ruby
+  403  kill -9 24865
+  404  lsof -i :3000
+  405  rails server -b 0.0.0.0
+  406  ps -ef | grep ruby
+  407  kill -9 25016
+  408  kill -9 24998
+  409  mysqldump -u root -p dmp-upgrade-friday > [filename]-$(date +%F).sql
+  410  ls -l
+  411  vim config/database.yml
+  412  rake db:create RAILS_ENV=development --trace
+  413  mysql -u root -p dmp-upgrade-fridayy < [filename]-2019-10-08.sql
+  414  vim config/database.yml
+  415  rails server -b 0.0.0.0
+  416  rake db:migrate RAILS_ENV=development
+  417  ps -ef | grep ruby
+  418  kill -9 25087
+  419  kill -9 25032
+  420  rails server -b 0.0.0.0
+  421  rake db:migrate RAILS_ENV=development
+  422  kill -9 25094
+  423  rake db:migrate RAILS_ENV=development
+  424  mysqldump -u root -p dmp-upgrade-fridayy > migratedDMPdata-$(date +%F).sql
+  425  ps -ef | grep ruby
+  426  kill -9 25131
+  427  rails server -b 0.0.0.0
+  428  vim /etc/httpd/conf.d/passenger.conf
+  429  vim /etc/httpd/conf.d/ssl.conf
+  430  ls /etc/httpd/conf.d/
+  431  vim /etc/httpd/conf.d/shib.conf
+  432  vim /etc/httpd/conf.d/local.conf 
+  433  service httpd restart
+  434  tail -f /var/log/httpd/error_log
+  435  vim /etc/httpd/conf.d/passenger.conf
+  436  cd ..
+  437  ls rrrrr/
+  438  ls -al rrrrr/
+  439  chown -R apache:apache rrrrr/
+  440  chmod -R 777 rrrrr/
+  441  service httpd restart
+  442  cd rrrrr/
+  443  service httpd restart
+  444  service shibd restart
+  445  cd ..
+  446  cd roadmap
+  447  grep -r "linking"
+  448  grep -r "Notice: Successfully authenticated from Your institution credentials account"
+  449  vim config/application.rb 
+  450  grep -r "navbar-header"
+  451  cd ..
+  452  cd rrrrr/
+  453  grep -r "navbar-header"
+  454  grep -r "assets/logo.png"
+  455  grep -r "DMPRoadmap logo"
+  456  grep -r -i "/assets/logo.png"
+  457  locate application.self.css
+  458  locate update
+  459  locate application.self.css
+  460  cd app/assets/
+  461  ls -l
+  462  cd stylesheets/
+  463  ls -l
+  464  vim application.scss
+  465  ls -l
+  466  cd vendor/
+  467  ls
+  468  cd ..
+  469  grep -r 'src=/assets/logo.png' *
+  470  grep -r 'logo.png' *
+  471  cd ../../../
+  472  grep -r 'src=/assets/logo.png' *
+  473  grep -r 'logo.png' *
+  474  grep -r '/assets/logo.png' *
+  475  grep -r 'DMPRoadmap logo' *
+  476  grep -r '.navbar-inverse' *
+  477  vim app/assets/stylesheets/blocks/_navbars.scss
+  478  grep -r '$navbar-branding-bg' *
+  479  vim app/assets/stylesheets/variables/_bootstrap.scss
+  480  vim node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+  481  vim app/assets/stylesheets/variables/_bootstrap.scss
+  482  vim app/views/layouts/_navigation.html.erb
+  483  service httpd restart
+  484  grep -r '#222' *
+  485  vim node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+  486  cd /var/www/html/rrrrr/
+  487  sudo reboot
+  488  cd /var/www/html/rrrrr/
+  489  vim node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+  490  ls node_modules/bootstrap-sass/assets/stylesheets/bootstrap/
+  491  vim node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss
+  492  service httpd restart
+  493  vim node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss
+  494  vim node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss 
+  495  vim node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss
+  496  vim node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+  497  pwd
+  498  ls
+  499  cd lib/
+  500  ls -l
+  501  cd ..
+  502  cd public/
+  503  ls
+  504  vim _index.html
+  505  service httpd restart
+  506  vim _index.html
+  507  service httpd restart
+  508  vim _index.html
+  509  grep -r ".navbar-inverse" *
+  510  cd ..
+  511  grep -r ".navbar-inverse" *
+  512  cd app/views/
+  513  ls
+  514  mv layouts layouts-Orig
+  515  cp -R /var/www/html/roadmap/app/views/layouts/ /var/www/html/rrrrr/app/views/
+  516  ls -l
+  517  chown -R apache:apache layouts/
+  518  cd ..
+  519  service httpd restart
+  520  cd app/views/layouts
+  521  ls -l
+  522  vim _navigation.html.erb
+  523  cd ..
+  524  mv layouts layouts-wrong
+  525  mv layouts-Orig/ layouts
+  526  service httpd restart
+  527  vim app/assets/stylesheets/blocks/_navbars.scss
+  528  pwd
+  529  cd ../../
+  530  vim app/assets/stylesheets/blocks/_navbars.scss
+  531  service httpd restart
+  532  vim app/assets/stylesheets/blocks/_navbars.scss
+  533  ls app/assets/stylesheets/blocks/
+  534  ls /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/
+  535  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  536  vim app/assets/stylesheets/blocks/_navbars.scss
+  537  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  538  service httpd restart
+  539  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  540  service httpd restart
+  541  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  542  service httpd restart
+  543  cd ..
+  544  cd roadmap
+  545  grep -r '.navbar-inverse1'*
+  546  cd ..
+  547  cd rrrrr/
+  548  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  549  service httpd restart
+  550  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  551  service httpd restart
+  552  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  553  service httpd restart
+  554  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  555  service httpd restart
+  556  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  557  service httpd restart
+  558  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  559  service httpd restart
+  560  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  561  service httpd restart
+  562  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  563  service httpd restart
+  564  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  565  service httpd restart
+  566  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  567  service httpd restart
+  568  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  569  service httpd restart
+  570  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  571  service httpd restart
+  572  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  573  service httpd restart
+  574  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  575  service httpd restart
+  576  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  577  service httpd restart
+  578  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  579  service httpd restart
+  580  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  581  service httpd restart
+  582  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  583  service httpd restart
+  584  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  585  service httpd restart
+  586  grep -r 'logo.png'*
+  587  grep -r 'cput.png'*
+  588  grep -r "logo_cput.png"*
+  589  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  590  service httpd restart
+  591  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  592  service httpd restart
+  593  grep -r ".app-logo" *
+  594  vim app/assets/stylesheets/blocks/_logos.scss
+  595  grep -r "app-logo {" *
+  596  vim app/assets/stylesheets/blocks/_logos.scss
+  597  service httpd restart
+  598  vim app/assets/stylesheets/blocks/_logos.scss
+  599  service httpd restart
+  600  vim app/assets/stylesheets/blocks/_logos.scss
+  601  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  602  service httpd restart
+  603  grep -r "Welcome to DMPRoadmap." *
+  604  grep -r -i 'Welcome to DMPRoadmap' *
+  605  grep -r -i 'Welcome to DMPRoadmap'*
+  606  grep -r 'Welcome to DMPRoadmap'*
+  607  grep -r 'Welcome' *
+  608  grep -r 'Welcome to DMP' *
+  609  vim public/_index.html
+  610  grep -r 'Welcome to DMPRoadmap' *
+  611  grep -r "Welcome to DMPRoadmap." *
+  612  man grep
+  613  grep -r -i "Welcome to DMPRoadmap." *
+  614  grep -r '<div class="col-md-8">' *
+  615  vim app/views/home/index.html.erb
+  616  ls
+  617  cd app/
+  618  ls
+  619  cd controllers/
+  620  ls
+  621  vim home_controller.rb 
+  622  cd ..
+  623  pwd
+  624  vim app/views/home/index.html.erb
+  625  cd ..
+  626  vim app/views/home/index.html.erb
+  627  cd app/views/
+  628  ls
+  629  cd home/
+  630  ls -l
+  631  vim _welcome.html.erb
+  632  cp _welcome.html.erb _welcome.html.erb-bk
+  633  vim _welcome.html.erb
+  634  service httpd restart
+  635  vim _welcome.html.erb
+  636  service httpd restart
+  637  vim _welcome.html.erb
+  638  service httpd restart
+  639  vim _welcome.html.erb
+  640  service httpd restart
+  641  vim _welcome.html.erb
+  642  service httpd restart
+  643  cd /var/www/html/rrrrr/
+  644  grep -r 'nav navbar-nav' *
+  645  grep -r 'public_plans_path' *
+  646  service httpd restart
+  647  cd /var/www/html
+  648  ls
+  649  cd hours/
+  650  ls
+  651  cd ..
+  652  ls -l
+  653  mkdir hh
+  654  cd hh/
+  655  vim index.html
+  656  cd ..
+  657  chown -R apache:apache hh/
+  658  chmod -R 777 hh/
+  659  cd /var/www/html/rrrrr/
+  660  grep -r 'new_plan_path' *
+  661  service httpd restart
+  662  grep -r 'sign' *
+  663  grep -r 'sign_in' *
+  664  grep -r 'sign_in' * | tail
+  665  grep -r 'sign_in' * | tail -100
+  666  grep -r 'sign_in' * | tail -35
+  667  grep -r 'sign_in' * | tail -75
+  668  service httpd restart
+  669  grep -r 'language' * 
+  670  service httpd restart
+  671  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  672  history
+  673  vim app/assets/stylesheets/blocks/_logos.scs
+  674  grep -r 'DMP.png' *
+  675  service httpd restart
+  676  vim calcMean()
+  677  vim calcMean
+  678  cd /var/www/html/rrrrr/
+  679  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  680  ls /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/
+  681  grep -r '#9d9d9d' *
+  682  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  683  service httpd restart
+  684  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  685  service httpd restart
+  686  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  687  service httpd restart
+  688  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  689  service httpd restart
+  690  grep -r "templates*"
+  691  service httpd restart
+  692  vim config/initializers/devise.rb
+  693  service httpd restart
+  694  grep -r "plan_no_funder"
+  695  grep -r "plan_no_funder" *
+  696  service httpd restart
+  697  grep -r "My Dashboard " *
+  698  grep -r "The table below lists the plans that you have created " *
+  699  grep -r "The table" *
+  700  grep -r "The table below lists the plans that you have created" *
+  701  grep -r "Select the primary " *
+  702  grep -r "plan_funder_name " *
+  703  grep -r "Select the primary" *
+  704  grep -r "funder-org" *
+  705  grep -r "Error: Unable to create the plan. " *
+  706  grep -r "Error: Unable to create the plan." *
+  707  grep -r "Locale can't be blank" *
+  708  service httpd restart
+  709  vim /usr/local/rvm/gems/ruby-2.5.1/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_navbar.scss
+  710  service httpd restart
+  711  pwd
+  712  cd /var/www/html
+  713  ls
+  714  ifconfig
+  715  service httpd restart
+  716  screen 
+  717  cd /var/www/html/rrrrr/
+  718  man less
+  719  man tail
+  720  service httpd restart
+  721  cd app/controllers/
+  722  pry
+  723  service httpd restart
+  724  cd ../../
+  725  vim Gemfile
+  726  bundle update
+  727  sudo reboot
+  728  screen
+  729  screen -x
+  730  export http_proxy=http://facilities:tuesday1234@10.47.3.224:3128
+  731  export https_proxy=http://facilities:tuesday1234@10.47.3.224:3128
+  732  yum update
+  733  screen -x
+  734  export https_proxy=http://facilities:tuesday1234@10.18.4.12:3128
+  735  export http_proxy=http://facilities:tuesday1234@10.18.4.12:3128
+  736  yum update
+  737  cd /var/www/html/rrrrr/
+  738  gem install pry-remote
+  739  vim Gemfile
+  740  bundle install
+  741  vim Gemfile
+  742  bundle install
+  743  bundle update
+  744  vim Gemfile
+  745  bundle update
+  746  service httpd restart
+  747  screen -x
+  748  cls
+  749  clr
+  750  clear
+  751  cd /var/www/html/
+  752  ls
+  753  cd ojs/
+  754  ls
+  755  vim config.inc.php 
+  756  cd ../../
+  757  mkdir newfiles
+  758  chown apache:apache newfiles/
+  759  cd html/ojs/
+  760  vim config.inc.php
+  761  cd ..
+  762  ls
+  763  git clone https://github.com/pkp/ojs.git ojs-uct
+  764  ls -l
+  765  cd ojs
+  766  cd ..
+  767  cd ojs-uct/
+  768  git status
+  769  ls
+  770  less babel.config.js
+  771  git status
+  772  git checkout stable-3_1_2 
+  773  ls
+  774  git log 
+  775  cd lib/pkp/
+  776  ls
+  777  cd ../../
+  778  vim .git/
+  779  git submodule update --init --recursive
+  780  ls
+  781  ls -l lib/pkp/
+  782  cd lib/pkp/
+  783  composer update
+  784  history | grep export
+  785  composer update
+  786  history
+  787  export http_proxy=http://facilities:tuesday1234@10.18.4.12:3128
+  788  export https_proxy=http://facilities:tuesday1234@10.18.4.12:3128
+  789  composer update
+  790  cd ../../
+  791  cd lib/pkp/
+  792  composer --working-dir=plugins/paymethod/paypal update
+  793  cd ..
+  794  composer --working-dir=plugins/paymethod/paypal update
+  795  cd ..
+  796  cd mediatum
+  797  git status
+  798  cd ..
+  799  cd ojs-uct/
+  800  npm install
+  801  npm -v
+  802  curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+  803  sudo yum install -y gcc-c++ make
+  804  export https_proxy=http://facilities:tuesday1234@10.18.4.12:3128
+  805  export http_proxy=http://facilities:tuesday1234@10.18.4.12:3128
+  806  sudo yum install -y gcc-c++ make
+  807  kill -9 22770
+  808  sudo yum install -y gcc-c++ make
+  809  kill -9 22892
+  810  yum install nodejs
+  811  composer --working-dir=plugins/generic/citationStyleLanguage update
+  812  npm install
+  813  npm run build
+  814  pwd
+  815  locate npm-debug.log
+  816  locate update
+  817  locate npm-debug.log
+  818  su nobebex
+  819  npm run build
+  820  ls -l
+  821  man touch
+  822  less npm-debug.log
+  823  vim webpack.config.js
+  824  npm run build
+  825  pwd
+  826  git status
+  827  npm install
+  828  npm run build
+  829  git log
+  830  cd lib/pkp
+  831  composer update
+  832  cd ../../
+  833  npm build
+  834  ls
+  835  npm run build
+  836  npm build run
+  837  apt update
+  838  yum update
+  839  npm --version
+  840  yum update npm
+  841  npm --version
+  842  npm install --save selfupdate
+  843  npm --version
+  844  npm build run
+  845  npm run build
+  846  clear
+  847  pwd
+  848  cd ..
+  849  cd /var/www/html/ojs-cput
+  850  cd /var/www/html/
+  851  ls
+  852  cd /var/www/html/ojs-uct/
+  853  npm install
+  854  npm run build
+  855  npm --version
+  856  npm upgrade
+  857  export http_proxy=http://facilities:tuesday1234@10.18.4.12:3128
+  858  export https_proxy=http://facilities:tuesday1234@10.18.4.12:3128
+  859  npm upgrade
+  860  which npm
+  861  /usr/bin/local/npm --version
+  862  /usr/bin/npm --version
+  863  cd /usr/bin/
+  864  ls -l
+  865  locate npm
+  866  node -v
+  867  sudo yum install -y npm gradle
+  868  sudo yum -y upgrade
+  869  npm-upgrade
+  870  nvm list
+  871  nvm use v0.10.30
+  872  nvm use --delete-prefix v12.11.1
+  873  npm --version
+  874  node -v
+  875  pwd
+  876  cd /var/www/html/ojs-uct/
+  877  npm --version
+  878  npm install
+  879  npm run build
+  880  mysql -u ojs -p
+  881  mysql -u root -p
+  882  mysql -u ojs
+  883  mysql -u ojs -p
+  884  mysql -u root -p
+  885  ls -l
+  886  cp config.TEMPLATE.inc.php config.inc.php
+  887  vim config.inc.php
+  888  mysql -u root -p
+  889  vim config.inc.php 
+  890  cd..
+  891  cd ..
+  892  chown -R apache:apache ojs-uct/
+  893  cd ojs-uct/
+  894  vim config.inc.php
+  895  mysql -u root -p
+  896  vim config.inc.php 
+  897  service httpd restart
+  898  less /var/log/httpd/error_log
+  899  cd ..
+  900  ls -l
+  901  chmod -R 777 ojs-uct/
+  902  chown -R apache:apache ojs-uct/
+  903  service httpd restart
+  904  tail -f  /var/log/httpd/error_log
+  905  tail -20 /var/log/httpd/error_log
+  906  service httpd reload
+  907  php -S 0.0.0.0:8000
+  908  php -S 0.0.0.0:8007
+  909  cd /var/www/html/ojs-uct/
+  910  ls
+  911  service httpd restart
+  912  git status
+  913  mysql -u root -p
+  914  vim config.inc.php
+  915  mysql -u root -p
+  916  vim index.php 
+  917  git checkout index.php
+  918  cd plugins/themes/
+  919  ls
+  920  cd default/
+  921  ls
+  922  cd ..
+  923  git status
+  924  git diff webpack.config.js
+  925  git fetch origin
+  926  git show 100644
+  927  ls
+  928  grep sql *
+  929  pwd
+  930  git status
+  931  git commit -a 
+  932  git add .
+  933  cd /home/
+  934  ls
+  935  cd nobebex/
+  936  ls
+  937  cd /root/
+  938  ls
+  939  vim setup-ius.sh 
+  940  locate mysql-backup.sh
+  941  cd /var/www/html/
+  942  ls -l
+  943  vim MySQLDump.php
+  944  vim 
+  945  vim MySQLImport.php
+  946  chown apache:apache MySQLImport.php
+  947  chown apache:apache MySQLDump.php
+  948  vim callDump.php
+  949  php callDump.php
+  950  ls -l
+  951  cd ojs-uct/
+  952  history | grep mysqldump
+  953  mysqldump -u root -p ojsuct > [filename]-$(date +%F).sql
+  954  ls
+  955  vim [filename\]-2019-12-03.sql
+  956  history | grep mysql
+  957  mysql -u root -p ojsdrop < [filename\]-2019-12-03.sql
+  958  vim config.inc.php
+  959  vim [filename]-2019-12-03.sql
+  960  perl -pl -e '/$/InnoDB/MyISAM/' [filename\]-2019-12-03.sql
+  961  perl -pl -e '$/InnoDB/MyISAM/' [filename\]-2019-12-03.sql
+  962  cd ..
+  963  cd ojs-uct/
+  964  php -S tools/upgrade php upgrade
+  965  php -S tools/upgrade.php php upgrade
+  966  php tools/upgrade.php php upgrade
+  967  php tools/upgrade php upgrade
+  968  php tools/upgrade.php upgrade
+  969  vim config.inc.php
+  970  php tools/importExport.php list
+  971  vim config.inc.php 
+  972  php tools/importExport.php list
+  973  service httpd restart
+  974  php tools/importExport.php list
+  975  vi tools/importExport.php
+  976  service mysqld restart
+  977  php tools/importExport.php list
+  978  git status
+  979  git add .
+  980  git commit -a
+  981  clear
+  982  cd /var/www/html/rrrrr/
+  983  screen -x
+  984  pwd
+  985  cd ../
+  986  cd /var/www/html/rrrrr/
+  987  screen -x
+  988  clear
+  989  screen -x
+  990  ls
+  991  screen -x
+  992  clear
+  993  screen -x
+  994  cd /var
+  995  screen 
+  996  cd /var/www/ls
+  997  cd /var/www/html/
+  998  ls
+  999  cd rrrrr/
+ 1000  vim config/database.yml
+ 1001* 
+ 1002  vim config/initializers/devise.rb
+ 1003  service httpd restart
+ 1004  vim config/database.yml
+ 1005  service httpd restart
+ 1006  vim config/initializers/devise.rb
+ 1007  service httpd restart
+ 1008  vim config/database.yml
+ 1009  service httpd restart
+ 1010  ls
+ 1011  cd ..
+ 1012  cp -R rrrrr/ rrrrr-BKP
+ 1013  cd rrrrr/
+ 1014  vim config/database.yml
+ 1015  service httpd restart
+ 1016  ls -l
+ 1017  cd ..
+ 1018  chown -R apache:apache rrrrr/
+ 1019  cd rrrrr/
+ 1020  service httpd restart
+ 1021  vim /var/www/html/rrrrr-BKP/config/initializers/devise.rb
+ 1022  service httpd restart
+ 1023  ls
+ 1024  vim config/database.yml
+ 1025  killall ruby
+ 1026  vim config/database.yml
+ 1027  service httpd restart
+ 1028  killall ruby
+ 1029  history | grep export
+ 1030  history >> his.log

@@ -8,7 +8,6 @@ import '../utils/externalLink';
 import '../utils/paginable';
 import '../utils/panelHeading';
 import '../utils/links';
-import '../utils/outOfFocus';
 import '../utils/tabHelper';
 import '../utils/tooltipHelper';
 import '../utils/popoverHelper';

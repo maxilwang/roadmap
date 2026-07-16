@@ -1,9 +1,6 @@
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
-Rails.application.config.assets.precompile += %w[
-  tinymce/lightgray/skin.min.css,
-  blocks/_tinymce_content.scss
- ]
+Rails.application.config.assets.precompile += %w[ tinymce/lightgray/skin.min.css ]
 
 
 if Rails.env.staging? or Rails.env.production?

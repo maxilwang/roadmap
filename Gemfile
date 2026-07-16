@@ -35,12 +35,12 @@ group :mysql do
   gem 'mysql2', '~> 0.4.10'
 end
 
-group :pgsql do
+#group :pgsql do
   # Pg is the Ruby interface to the {PostgreSQL
   # RDBMS}[http://www.postgresql.org/](https://bitbucket.org/ged/ruby-pg)
   # Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/] (https://bitbucket.org/ged/ruby-pg)
-  gem 'pg', '~> 0.19.0'
-end
+  #gem 'pg', '~> 0.19.0'
+#end
 
 group :thin do
   # A thin and fast web server (http://code.macournoyer.com/thin/)

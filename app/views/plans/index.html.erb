@@ -6,6 +6,7 @@
     <p>
       <% if @plans.count > 0 %>
         <%= _('The table below lists the plans that you have created, and that have been shared with you by others. You can edit, share, download, make a copy, or remove these plans at any time.')%>
+        <p class="alert alert-danger alert-dismissible"><%= _('This tool was updated on 23 March 2022 to include section 8 which was required to be POPIA compliant.  Data Management Plans developed before this date will not have this new section included, only plans done after this date will have section 8 included.')%></p>
       <% else %>
         <strong><%= _("Welcome") %></strong><br />
         <%= _("You are now ready to create your first DMP.") %><br />

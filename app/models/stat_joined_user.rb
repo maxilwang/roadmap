@@ -5,10 +5,10 @@
 # Table name: stats
 #
 #  id         :integer          not null, primary key
-#  count      :integer          default(0)
+#  count      :bigint(8)        default(0)
 #  date       :date             not null
-#  details    :text
-#  type       :string           not null
+#  details    :text(65535)
+#  type       :string(255)      not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #  org_id     :integer
