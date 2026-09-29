@@ -11,6 +11,8 @@ ruby '3.1.4'
 # Full-stack web application framework. (http://rubyonrails.org)
 gem 'rails', '~> 7.1'
 
+gem 'ruby-saml', '~> 1.18.0'   # use the latest stable
+
 # TODO: Remove this once Rails addresses the issue with its dependency on mimemagic. Mimemagic had
 #       an MIT license but was using some incompatible GPL license code.
 #       Versions of mimemagic that were yanked: https://rubygems.org/gems/mimemagic/versions

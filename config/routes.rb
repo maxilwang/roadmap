@@ -376,4 +376,7 @@ Rails.application.routes.draw do
                                    controller: 'research_projects',
                                    constraints: { format: 'json' }
 end
+get  "/saml/init",     to: "saml#init"
+post "/saml/consume",  to: "saml#consume"
+get  "/saml/metadata", to: "saml#metadata"
 # rubocop:enable Metrics/BlockLength
