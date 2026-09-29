@@ -396,5 +396,6 @@ Devise.setup do |config|
     settings.idp_cert_fingerprint               = "00:A1:2B:3C:44:55:6F:A7:88:CC:DD:EE:22:33:44:55:D6:77:8F:99"
     settings.idp_cert_fingerprint_algorithm     = "http://www.w3.org/2000/09/xmldsig#sha1"
   end
+  config.saml_attribute_map_resolver = "MyAttributeMapResolver"
 end
 # rubocop:enable Metrics/BlockLength
