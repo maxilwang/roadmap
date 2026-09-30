@@ -314,14 +314,14 @@ Devise.setup do |config|
   # Devise.saml_create_user = Proc.new do |model_class, saml_response, auth_value|
   #  model_class == Admin
   # end
-  config.saml_create_user = true
+  #config.saml_create_user = true
 
   # Update the attributes of the user after a successful login. (Default is false)
   # Can also accept a proc, for ex:
   # Devise.saml_update_user = Proc.new do |model_class, saml_response, auth_value|
   #  model_class == Admin
   # end
-  config.saml_update_user = true
+  #config.saml_update_user = true
 
   # Lambda that is called if Devise.saml_update_user and/or Devise.saml_create_user are true.
   # Receives the model object, saml_response and auth_value, and defines how the object's values are
@@ -348,15 +348,15 @@ Devise.setup do |config|
 
   # Set the default user key. The user will be looked up by this key. Make
   # sure that the Authentication Response includes the attribute.
-  config.saml_default_user_key = :email
+  #config.saml_default_user_key = :email
 
   # Optional. This stores the session index defined by the IDP during login.  If provided it will be used as a salt
   # for the user's session to facilitate an IDP initiated logout request.
-  config.saml_session_index_key = :session_index
+  #config.saml_session_index_key = :session_index
 
   # You can set this value to use Subject or SAML assertion as info to which email will be compared.
   # If you don't set it then email will be extracted from SAML assertion attributes.
-  config.saml_use_subject = true
+  #config.saml_use_subject = true
 
   # You can implement IdP settings with the options to support multiple IdPs and use the request object by setting this value to the name of a class that implements a ::settings method
   # which takes an IdP entity id and a request object as arguments and returns a hash of idp settings for the corresponding IdP.
@@ -374,7 +374,7 @@ Devise.setup do |config|
   # other Devise modules or libraries. Set the saml_route_helper_prefix to a string that will
   # be appended to the named route.
   # If saml_route_helper_prefix = 'saml' then the new_user_session route becomes new_saml_user_session
-  config.saml_route_helper_prefix = 'saml'
+  #config.saml_route_helper_prefix = 'saml'
 
   # You can add allowance for clock drift between the sp and idp.
   # This is a time in seconds.
@@ -385,17 +385,17 @@ Devise.setup do |config|
   # config.saml_validate_in_response_to = false
 
   # Configure with your SAML settings (see ruby-saml's README for more information: https://github.com/onelogin/ruby-saml).
-  config.saml_configure do |settings|
-    settings.assertion_consumer_service_url     = "http://172.27.137.197:3000/users/saml/auth"
-    settings.assertion_consumer_service_binding = "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
-    settings.name_identifier_format             = "urn:oasis:names:tc:SAML:2.0:nameid-format:transient"
-    settings.issuer                             = "http://172.27.137.197:3000/users/saml/metadata"
-    settings.authn_context                      = ""
-    settings.idp_slo_service_url                = "https://sts.windows.net/90bb22db-a73a-4971-b7d6-7ca3ef90cf06/"
-    settings.idp_sso_service_url                = "https://login.microsoftonline.com/90bb22db-a73a-4971-b7d6-7ca3ef90cf06/saml2"
-    settings.idp_cert_fingerprint               = "00:A1:2B:3C:44:55:6F:A7:88:CC:DD:EE:22:33:44:55:D6:77:8F:99"
-    settings.idp_cert_fingerprint_algorithm     = "http://www.w3.org/2000/09/xmldsig#sha1"
-  end
-  config.saml_attribute_map_resolver = "MyAttributeMapResolver"
+  #config.saml_configure do |settings|
+  #  settings.assertion_consumer_service_url     = "http://172.27.137.197:3000/users/saml/auth"
+  #  settings.assertion_consumer_service_binding = "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+  #  settings.name_identifier_format             = "urn:oasis:names:tc:SAML:2.0:nameid-format:transient"
+  #  settings.issuer                             = "http://172.27.137.197:3000/users/saml/metadata"
+  #  settings.authn_context                      = ""
+  #  settings.idp_slo_service_url                = "https://sts.windows.net/90bb22db-a73a-4971-b7d6-7ca3ef90cf06/"
+  #  settings.idp_sso_service_url                = "https://login.microsoftonline.com/90bb22db-a73a-4971-b7d6-7ca3ef90cf06/saml2"
+  #  settings.idp_cert_fingerprint               = "00:A1:2B:3C:44:55:6F:A7:88:CC:DD:EE:22:33:44:55:D6:77:8F:99"
+  #  settings.idp_cert_fingerprint_algorithm     = "http://www.w3.org/2000/09/xmldsig#sha1"
+  #end
+  #config.saml_attribute_map_resolver = "MyAttributeMapResolver"
 end
 # rubocop:enable Metrics/BlockLength
