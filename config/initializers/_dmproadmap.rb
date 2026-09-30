@@ -66,7 +66,7 @@ module DMPRoadmap
     # -------------------- #
 
     # Used throughout the system via ApplicationService.application_name
-    config.x.application.name = 'DMPRoadmap'
+    config.x.application.name = 'CPUT DMP Tool'
     # Used as the default domain when 'archiving' (aka anonymizing) a user account
     # for example `jane.doe@uni.edu` becomes `1234@removed_accounts-example.org`
     config.x.application.archived_accounts_email_suffix = '@removed_accounts-example.org'
