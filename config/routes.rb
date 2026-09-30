@@ -368,15 +368,15 @@ Rails.application.routes.draw do
     end
   end
 
-  get 'research_projects/search', action: 'search',
+    get 'research_projects/search', action: 'search',
                                   controller: 'research_projects',
                                   constraints: { format: 'json' }
 
-  get 'research_projects/(:type)', action: 'index',
+    get 'research_projects/(:type)', action: 'index',
                                    controller: 'research_projects',
                                    constraints: { format: 'json' }
-end
-  get  "/saml/init",     to: "saml#init"
-  post "/saml/consume",  to: "saml#consume"
-  get  "/saml/metadata", to: "saml#metadata"
-# rubocop:enable Metrics/BlockLength
+    get  "/saml/init",     to: "saml#init"
+    post "/saml/consume",  to: "saml#consume"
+    get  "/saml/metadata", to: "saml#metadata"
+  end
+  # rubocop:enable Metrics/BlockLength
