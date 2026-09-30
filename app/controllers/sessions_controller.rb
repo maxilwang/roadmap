@@ -2,6 +2,13 @@
 
 # Controller that handles user login and logout
 class SessionsController < Devise::SessionsController
+  before_action :block_password_login, only: :create
+  private
+
+  def block_password_login
+    redirect_to new_user_session_path,
+                alert: _('Please sign in with your institutional credentials.')
+  end
   def new
     redirect_to(root_path)
   end
