@@ -386,10 +386,10 @@ Devise.setup do |config|
 
   # Configure with your SAML settings (see ruby-saml's README for more information: https://github.com/onelogin/ruby-saml).
   config.saml_configure do |settings|
-    settings.assertion_consumer_service_url     = "http://0.0.0.0:3000/users/saml/auth"
+    settings.assertion_consumer_service_url     = "http://172.27.137.197:3000/users/saml/auth"
     settings.assertion_consumer_service_binding = "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
     settings.name_identifier_format             = "urn:oasis:names:tc:SAML:2.0:nameid-format:transient"
-    settings.issuer                             = "http://0.0.0.0:3000/saml/metadata"
+    settings.issuer                             = "http://172.27.137.197:3000/users/saml/metadata"
     settings.authn_context                      = ""
     settings.idp_slo_service_url                = "https://sts.windows.net/90bb22db-a73a-4971-b7d6-7ca3ef90cf06/"
     settings.idp_sso_service_url                = "https://login.microsoftonline.com/90bb22db-a73a-4971-b7d6-7ca3ef90cf06/saml2"
