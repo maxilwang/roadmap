@@ -1,5 +1,6 @@
 class SamlController < ApplicationController
-  skip_before_action :verify_authenticity_token, only: [:consume]
+  skip_before_action :verify_authenticity_token, only: %i[init consume]
+  skip_before_action :authenticate_user!, only: %i[init consume metadata], raise: false
   # If you require login globally, also skip it here, e.g.:
   # skip_before_action :authenticate_user!, only: [:init, :consume, :metadata]
 
