@@ -375,7 +375,7 @@ Rails.application.routes.draw do
     get 'research_projects/(:type)', action: 'index',
                                    controller: 'research_projects',
                                    constraints: { format: 'json' }
-    get  "/saml/init",     to: "saml#init"
+    get  "/saml/init",     to: "saml#init",  via: %i[get post], as: :saml_init
     post "/saml/consume",  to: "saml#consume"
     get  "/saml/metadata", to: "saml#metadata"
   end
