@@ -9,7 +9,7 @@ defaults: &defaults
   database: dmp-upgrade-friday-default
   pool: 5
   username: root
-  password: P@ssword192
+  password: 1111111
   host: localhost
 development:
   <<: *defaults
@@ -18,7 +18,7 @@ development:
   database: dmp-upgrade-fridayy 
   pool: 5
   username: root
-  password: P@ssword192
+  password: 11111111
   host: localhost
 test:
   <<: *defaults
@@ -27,5 +27,5 @@ test:
   database: dmp-upgrade-friday-test
   pool: 5
   username: root
-  password: P@ssword192
+  password: 11111111
   host: localhost
