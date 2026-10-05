@@ -11,8 +11,8 @@ class SamlSettingsService
     settings.idp_cert                = File.read(Rails.root.join("config", "saml", "idp_cert.pem"))
 
     # Service Provider (must match Entra exactly)
-    settings.sp_entity_id                   = "http://172.27.137.197:3000/saml/metadata"
-    settings.assertion_consumer_service_url = "http://172.27.137.197:3000/saml/consume"
+    settings.sp_entity_id                   = "http://155.238.129.122:3000/saml/metadata"
+    settings.assertion_consumer_service_url = "http://155.238.129.122:3000/saml/consume"
     settings.name_identifier_format         = "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
 
     settings
