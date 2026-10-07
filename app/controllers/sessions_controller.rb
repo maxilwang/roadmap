@@ -3,12 +3,7 @@
 # Controller that handles user login and logout
 class SessionsController < Devise::SessionsController
   before_action :block_password_login, only: :create
-  private
 
-  def block_password_login
-    redirect_to new_user_session_path,
-                alert: _('Please sign in with your institutional credentials.')
-  end
   def new
     redirect_to(root_path)
   end
@@ -50,5 +45,12 @@ class SessionsController < Devise::SessionsController
     session[:locale] = nil
     # Method defined at controllers/application_controller.rb
     set_locale
+  end
+
+  private
+
+  def block_password_login
+    redirect_to new_user_session_path,
+                alert: _('Please sign in with your institutional credentials.')
   end
 end
