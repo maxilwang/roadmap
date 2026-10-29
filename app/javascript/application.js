@@ -31,6 +31,9 @@ import './src/utils/panelHeading';
 import './src/utils/requiredField';
 import './src/utils/tabHelper';
 
+import './src/utils/tabHelper';
+import './src/utils/tooltipHelper';
+
 // Specific functions from the Utilities files that will be made available to
 // the js.erb templates in the `window.x` statements below
 import { renderAlert, renderNotice } from './src/utils/notificationHelper';
