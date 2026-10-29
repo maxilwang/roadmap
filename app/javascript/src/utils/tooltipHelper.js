@@ -1,17 +1,32 @@
-$(() => {
-  // When using a tooltip on a tinymce textarea, add the HTML attributes for the tooltips to
-  // the parent `<div class="form-control">`. TODO: this does not work on focus though since tinymce
-  // uses an iframe and we can't detect when the editor window gains focus. It only works on hover.
-  //
-  // If the content of the tooltip contains HTML, then add `data-html="true"` to the element
-  // Default behaviour for all tootips, when attribute data-placement not set
-  $('[data-toggle="tooltip"]:not([data-placement])').tooltip({
-    animated: 'fade',
-    placement: 'right',
-  });
+import { Tooltip } from 'bootstrap';
 
-  // Don't set placement property if data-placement present
-  $('[data-toggle="tooltip"][data-placement]').tooltip({
-    animated: 'fade',
-  });
-});
+const initializeTooltips = () => {
+  document
+    .querySelectorAll(
+      '[data-bs-toggle="tooltip"], [data-toggle="tooltip"]'
+    )
+    .forEach((element) => {
+      // Avoid initializing the same tooltip more than once.
+      if (Tooltip.getInstance(element)) {
+        return;
+      }
+
+      const placement =
+        element.getAttribute('data-bs-placement') ||
+        element.getAttribute('data-placement') ||
+        'right';
+
+      const html =
+        element.getAttribute('data-bs-html') === 'true' ||
+        element.getAttribute('data-html') === 'true';
+
+      Tooltip.getOrCreateInstance(element, {
+        placement,
+        html,
+        animation: true,
+      });
+    });
+};
+
+document.addEventListener('DOMContentLoaded', initializeTooltips);
+document.addEventListener('turbo:load', initializeTooltips);
