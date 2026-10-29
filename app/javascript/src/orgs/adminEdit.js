@@ -4,6 +4,7 @@ import { isObject } from '../utils/isType';
 import { Tinymce } from '../utils/tinymce.js';
 import { eachLinks } from '../utils/links';
 import { initAutocomplete, scrubOrgSelectionParamsOnSubmit } from '../utils/autoComplete';
+import { Tooltip } from 'bootstrap';
 
 $(() => {
   const toggleFeedback = () => {
@@ -52,10 +53,16 @@ $(() => {
     });
   });
 
-  $('.links [data-toggle="tooltip"]').on('click', (e) => {
-    e.preventDefault();
-    $(e.target).parent('a').tooltip('toggle');
-  });
+  $('.links [data-toggle="tooltip"], .links [data-bs-toggle="tooltip"]')
+    .on('click', (e) => {
+      const element = e.target.closest(
+        '[data-toggle="tooltip"], [data-bs-toggle="tooltip"]'
+      );
+
+      if (element) {
+        Tooltip.getOrCreateInstance(element).toggle();
+      }
+    });
 
   initAutocomplete('#org-merge-controls .autocomplete');
   scrubOrgSelectionParamsOnSubmit('form.edit_org');
